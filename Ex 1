@@ -1,0 +1,9 @@
+pergunta_1 = input ('Digite seu primeiro número, ao lado: ')
+pergunta_2 = input ('Digite seu segundo número, ao lado novamente: ')
+
+
+if pergunta_1 > pergunta_2:
+    print ('Seu segundo número é maior que o primeiro número.')
+
+elif pergunta_2 > pergunta_1:
+    print ('Seu primeiro número é maior que o segundo número.')
