@@ -1,0 +1,16 @@
+pergunta_1 = input ('Digite seu primeiro número ao lado: ')
+pergunta_2 = input ('Digite seu segundo número ao lado: ')
+pergunta_3 = input ('Digite seu terçeiro número ao lado: ')
+
+if float (pergunta_1) > float (pergunta_2) and float (pergunta_1) > float (pergunta_3):
+    resposta_1 = f'{pergunta_1} é maior que {pergunta_2} e {pergunta_3}.'
+    print (resposta_1)
+
+if float (pergunta_2) > float (pergunta_1) and float (pergunta_2) > float (pergunta_3):
+    resposta_2 = f'{pergunta_2} é maior que {pergunta_1} e {pergunta_3}.'
+    print (resposta_2)
+
+if float (pergunta_3) > float (pergunta_1) and float (pergunta_3) > float (pergunta_2):
+    resposta_3 = f'{pergunta_3} é maior que {pergunta_1} e {pergunta_2}'
+    print (resposta_3)
+    
