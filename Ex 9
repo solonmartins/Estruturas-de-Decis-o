@@ -1,0 +1,25 @@
+pergunta_numero_1 = input ('Digite seu PRIMEIRO número: ')
+pergunta_numero_2 = input ('Digite seu SEGUNDO número: ')
+pergunta_numero_3 = input ('Digite seu TERÇEIRO número: ')
+
+if pergunta_numero_1 > pergunta_numero_2 > pergunta_numero_3:
+    print (pergunta_numero_1, pergunta_numero_2, pergunta_numero_3)
+
+if pergunta_numero_1 > pergunta_numero_3 > pergunta_numero_2:
+    print (pergunta_numero_1, pergunta_numero_3, pergunta_numero_2)
+
+if pergunta_numero_2 > pergunta_numero_1 > pergunta_numero_3:
+    print (pergunta_numero_2, pergunta_numero_1, pergunta_numero_3)
+
+if pergunta_numero_2 > pergunta_numero_3 > pergunta_numero_1:
+    print (pergunta_numero_2, pergunta_numero_3, pergunta_numero_1)
+
+if pergunta_numero_3 > pergunta_numero_1 > pergunta_numero_2:
+    print (pergunta_numero_3, pergunta_numero_1, pergunta_numero_2)
+
+if pergunta_numero_3 > pergunta_numero_2 > pergunta_numero_1:
+    print (pergunta_numero_3, pergunta_numero_2, pergunta_numero_1)
+
+if pergunta_numero_1 == pergunta_numero_2 or pergunta_numero_1 == pergunta_numero_3 or pergunta_numero_2 == pergunta_numero_3:
+    print ('Inválido!')
+    
