@@ -1,0 +1,11 @@
+pergunta_1 = input ('Qual seu sexo? Digite ao lado, escrevendo F para feminino, e M para masculino: ')
+
+
+if pergunta_1.upper() == 'F':
+    print ('Seu sexo é: feminino.')
+
+elif pergunta_1.upper() == 'M':
+    print ('Seu sexo é: masculino.')
+
+else:
+    print ('Sexo inválido. Por favor, digite somente F ou M.')
