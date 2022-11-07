@@ -1,0 +1,14 @@
+pergunta_1 = input ('Digite ao lado uma letra, e diremos se é VOGAL ou CONSOANTE: ')
+
+if pergunta_1.upper() == 'A':
+    print ('É UMA VOGAL!')
+elif pergunta_1.upper() == 'E':
+    print ('É UMA VOGAL!')
+elif pergunta_1.upper() == 'I':
+    print ('É UMA VOGAL!')
+elif pergunta_1.upper() == 'O':
+    print ('É UMA VOGAL!')
+elif pergunta_1.upper() == 'U':
+    print ('É UMA VOGAL!')
+else:
+    print ('É CONSOANTE!')
