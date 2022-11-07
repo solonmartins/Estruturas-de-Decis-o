@@ -1,0 +1,15 @@
+pergunta_nota_1 = input ('Qual sua nota no primeiro bimestre? Digite ao lado: ')
+pergunta_nota_2 = input ('Qual sua nota no segundo bimestre? Digite, novamente, ao lado: ')
+
+conta_media = (float (pergunta_nota_1) + float (pergunta_nota_2)) / 2
+
+if conta_media >= 70 and conta_media < 99:
+    resposta_media = f'Sua média é {conta_media}. Parabéns, você foi aprovado!'
+    print (resposta_media)
+
+elif conta_media == 100:
+    resposta_media_100 = f'Sua média é {conta_media}. Parabéns, você foi aprovado COM DISTINÇÃO.'
+    print (resposta_media_100)
+
+else:
+    print ('Você está desaprovado!')
