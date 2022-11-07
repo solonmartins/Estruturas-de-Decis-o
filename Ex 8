@@ -1,0 +1,16 @@
+print ('\033[1:33m________________________________________________________________')
+pergunta_produto_preço_1 = input ('\033[1:32mQual o preço do PRIMEIRO produto: ')
+pergunta_produto_preço_2 = input ('\033[1:32mQual o preço do SEGUNDO produto: ')
+pergunta_produto_preço_3 = input ('\033[1:32mQual o preço do TERÇEIRO produto: ')
+print ('\033[1:33m________________________________________________________________')
+
+if float (pergunta_produto_preço_1) < float (pergunta_produto_preço_2) and float (pergunta_produto_preço_1) < float (pergunta_produto_preço_3):
+    print ('O preço do PRIMEIRO produto é mais barato que os demais.')
+
+elif float (pergunta_produto_preço_2) < float (pergunta_produto_preço_1) and float (pergunta_produto_preço_2) < float (pergunta_produto_preço_3):
+    print ('O preço do SEGUNDO produto é mais barato que os demais.')
+
+elif float (pergunta_produto_preço_3) < float(pergunta_produto_preço_1) and float (pergunta_produto_preço_3) < float (pergunta_produto_preço_2):
+    print ('O preço do TERÇEIRO produto é mais barato que os demais.')
+
+print ('\033[1:33m________________________________________________________________')
