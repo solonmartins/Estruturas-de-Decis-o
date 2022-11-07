@@ -1,0 +1,10 @@
+pergunta_1 = input ('Digite qualquer valor, ao lado: ')
+
+if float (pergunta_1) >= 0:
+    resposta_valor_positivo = f'O valor {pergunta_1} é POSITIVO.'
+    print (resposta_valor_positivo)
+
+elif float (pergunta_1) < 0:
+    resposta_valor_negativo = f'O valor {pergunta_1} é NEGATIVO.'
+    print (resposta_valor_negativo)
+    
